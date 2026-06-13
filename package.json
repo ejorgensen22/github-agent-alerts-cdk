@@ -1,0 +1,22 @@
+{
+  "name": "github-agent-alerts-cdk",
+  "version": "0.1.0",
+  "description": "AWS CDK construct for GitHub alerts and agentic workflows",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.149.0",
+    "constructs": "^10.0.0",
+    "@github-actions-cdk/aws-cdk": "^0.0.23"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0"
+  }
+}
